@@ -48,8 +48,7 @@ if(SolicitaPresupuesto != 2 && SolicitaPresupuesto != "No") {
         opcion = prompt(
         "Quiere elegir otra opción?: \n1- Pizza Party. \n2 - Finger Food \n3 - Asado gourmet \n4 - Burger party \nPresioná X para finalizar."
         );
-        break;
-    } 
+        } 
 }else{alert("Gracias por contactarnos")}
 
 

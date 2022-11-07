@@ -53,7 +53,6 @@ if(SolicitaPresupuesto != 2 && SolicitaPresupuesto != "No") {
 }
 //else{alert("Gracias por contactarnos")}
 
-
 const menu=[ 
     { nombre: "pizza party", precio: 1500, entradas: 4, principales: 10, postre: 1}, 
     { nombre: "Finger Food", precio: 3500, entradas: 0, principales: 10, postre: 1},
@@ -71,3 +70,4 @@ const resultado = menu.filter ((menu) =>{
 console.log (resultado)
 
 alert("Gracias por confiar en nuestros servicios")
+

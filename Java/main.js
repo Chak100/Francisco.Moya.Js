@@ -1,7 +1,6 @@
 let Presupuesto;
 let cliente=prompt("Ingrese su nombre")
 let mail = prompt("Ingrese por favor su mail");
-
 let SolicitaPresupuesto = prompt("Desea ver nuestras opciones de menú?: \n1- Si \n2 - No");
 
 if(SolicitaPresupuesto != 2 && SolicitaPresupuesto != "No") {
@@ -69,5 +68,4 @@ const resultado = menu.filter ((menu) =>{
 
 console.log (resultado)
 
-alert("Gracias por confiar en nuestros servicios")
-
+alert("Gracias por confiar en nuestros servicios");
